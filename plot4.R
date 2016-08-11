@@ -14,7 +14,7 @@ plot(longdate,(as.numeric(alldata$Voltage)),type="s",xlab="datetime", ylab="Volt
 plot(longdate,alldata$Sub_metering_1, type="s",xlab="",ylab="Energy sub metering")
 points(longdate,alldata$Sub_metering_2, type="s", col="red")
 points(longdate,alldata$Sub_metering_3, type="s", col="blue")
-legend("topright", legend=c("Sub_metering1","Sub_metering2","Sub_metering3"),col=c("black","red","blue"),lwd=2, cex=.25,bty="n")
+legend("topright", legend=c("Sub_metering1","Sub_metering2","Sub_metering3"),col=c("black","red","blue"),lwd=2, cex=.75,bty="n")
 plot(longdate,(as.numeric(alldata$Global_reactive_power)),type="s",xlab="datetime",ylab="Global_reactive_power")
 
 ##Close plot device
